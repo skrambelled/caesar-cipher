@@ -1,4 +1,4 @@
-from .cipher import encrypt, decrypt, crack
+from caesar_cipher.cipher import encrypt, decrypt, crack
 
 def test_encrypt_shift_1():
     actual = encrypt("apple", 1)
