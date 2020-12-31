@@ -8,9 +8,9 @@ encrypt('hello world', 10)
 
 means we'll shift each letter by 10 places, take a look at what that looks like in this key:
 
- | a | b |c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | z | t | u | v | w | x | y | z |
+| a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | z | t | u | v | w | x | y | z |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| q | r | s | t | u | v | w | x | y | z | a | b | c | d | e | f | j | h | i | j | k | l | m | n | o | p |
+| k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | a | b | c | d | e | f | g | h | i | j |
 
 'hello world' => 'rovvy gybvn'
 
