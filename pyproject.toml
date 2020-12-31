@@ -6,8 +6,8 @@ authors = ["Mark Bell <skrambelled@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-mltk = "^0.0.5"
 pytest = "^6.2.1"
+nltk = "^3.5"
 
 [tool.poetry.dev-dependencies]
 
