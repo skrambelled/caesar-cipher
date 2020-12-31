@@ -32,7 +32,7 @@ You can also optionally pass a `threshold`, so that some percentage of words mus
 
 ```python
 # set your threshold to 80%
-crack('rovvy gybvn', threshhold=.8)
+crack('rovvy gybvn', threshold=.8)
 ```
 
 [^1]: Words are supplied by `nltk` package, and also includes names, like John or London.
